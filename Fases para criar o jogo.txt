@@ -1,0 +1,8 @@
+Criando um jogo 
+
+1º Cenário do Jogo
+2º Personagens
+3º Inimigos
+4º Vida
+5º Coleta de itens
+6º Sons e trilha sonora
