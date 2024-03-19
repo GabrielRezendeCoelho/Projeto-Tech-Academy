@@ -1,0 +1,10 @@
+Aqui está a estrutura do site do jogo:
+
+No topo da navegação, haverá uma pequena foto do personagem do jogo, enquanto o fundo apresentará um template de cenário.
+
+Informação 1: História do jogo
+Informação 2: Personagens do jogo
+Informação 3: Estratégias para vencer o jogo
+No centro, serão disponibilizadas informações detalhadas sobre cada item navegável.
+
+Na parte final, haverá links para conhecer mais sobre o projeto no meu GitHub, informações sobre mim e outros detalhes sobre a construção do jogo.
