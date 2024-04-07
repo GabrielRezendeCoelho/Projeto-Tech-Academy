@@ -1,0 +1,143 @@
+body {
+    font-family: Arial, Helvetica, sans-serif; /*ordem de fontes desejadas*/
+    background-color: black; /* Cor do fundo*/
+    color: white; /* cor da letra*/
+}
+
+ul {
+    display: flex; /* define o tamanho e a largura informações na nav*/
+    justify-content: space-between; /* usada para alinhar os elementos*/
+    list-style-type: none; /* retirar a marcação da bolinha no inicio, usada na li*/
+    padding: 16px /* tamanho da distancia do topo*/
+}
+
+a {
+    color: white; /*retira a cor azul ao clicar no link*/
+    text-decoration: none; /*Retirar o sublinhado dos link*/
+}
+
+header img {
+    width: 150px; /* largura*/
+    height: 150px; /*altura*/
+    border-radius: 50%; /*deixar a foto arredondada*/
+    border: 5px solid red; /*cor da borda*/
+}
+
+.center {
+    text-align: center; /*centralizar os elementos dentro da div*/
+}
+
+h1 {
+    color: red; /*cor do titulo*/
+}
+
+footer img {
+    width: 40px; /* largura*/
+    height: 40px; /*altura*/
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+footer a {
+    margin: 20px;
+    margin-inline: center;
+}
+
+footer p {
+    margin-top: 2px;
+}
+
+.container {
+    padding: 0px 50px /*de cima em baixo vai ser zero espaço e da direita para esquerda 50 espaço*/
+}
+
+nav a:hover {
+    color: red; /*cor do botão quando passar o mouse nos  botões de navegação*/
+}
+nav{
+    float: right;
+
+}
+
+
+
+
+
+
+ul {
+    display: flex; /* define o tamanho e a largura informações na nav*/
+    justify-content: space-between; /* usada para alinhar os elementos*/
+    list-style-type: none; /* retirar a marcação da bolinha no inicio, usada na li*/
+    padding: 16px /* tamanho da distancia do topo*/
+}
+
+a {
+    color: white; /*retira a cor azul ao clicar no link*/
+    text-decoration: none; /*Retirar o sublinhado dos link*/
+}
+
+header img {
+    width: 65px; /* largura*/
+    height: 65px; /*altura*/
+    border-radius: 50%; /*deixar a foto arredondada*/
+    border: 5px solid red; /*cor da borda*/
+}
+
+.center {
+    text-align: center; /*centralizar os elementos dentro da div*/
+}
+
+h1 {
+    color: red; /*cor do titulo*/
+}
+
+footer img {
+    width: 40px; /* largura*/
+    height: 40px; /*altura*/
+    border-radius: 50%; /*deixar a foto arredondada*/
+    border: 3px solid red; /*cor da borda*/
+}
+
+footer{
+
+    display: flex;
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    align-items: center; /* Centraliza o conteúdo verticalmente */
+    position: fixed; /* Mantém o footer fixo na janela do navegador */
+    bottom: 0; /* Posiciona no fundo da página */
+    left: 0; /* Inicia do canto esquerdo da janela */
+    width: 100%; /* Ocupa a largura total da janela do navegador */
+    height: 110px; /* Altura do footer. Ajuste conforme necessário */
+    text-align: center; /* Garante que o texto dentro do footer esteja centralizado */
+    background-color: #6a7575; /* Cor de fundo do footer, altere conforme desejar */
+    box-shadow: 0 -2px 5px red; /* Adiciona uma sombra para um efeito elevado, opcional */
+}
+
+footer a :hover{
+    color: red; /*cor do botão quando passar o mouse nos  botões de navegação*/
+}
+
+
+footer a {
+    margin: 20px;
+    margin-inline: center;
+}
+
+footer p {
+    margin-top: 2px;
+}
+
+.container {
+    padding: 0px 50px /*de cima em baixo vai ser zero espaço e da direita para esquerda 50 espaço*/
+}
+
+nav a:hover {
+    color: red; /*cor do botão quando passar o mouse nos  botões de navegação*/
+}
+nav{
+    float: right;
+
+}

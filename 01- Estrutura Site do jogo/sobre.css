@@ -36,29 +36,9 @@ header nav ul li a{
 header nav ul li a:hover {
     color: red;
 }
-.banner img {
-    width: 100%;
-}
-main h1, footer p{
-    text-align: center;
-}
-main{
-    width: 1000px;
-    margin: auto;
-}
-.grid {
-    display: grid;
-    grid-template-columns: repeat(3, 33%);
-}
-.grid .coluna img {
-    width: 100%;
-}
-.grid .coluna {
-    text-align: center;
-    border: 1x solid #ccc;
-    border-radius: 5px;
-    margin: 10px;
-}
+
+/*CSS DA MAIN*/
+
 footer {
     background: #6a7575;
     padding: 20px 0;
