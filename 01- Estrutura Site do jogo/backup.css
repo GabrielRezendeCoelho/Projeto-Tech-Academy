@@ -141,3 +141,90 @@ nav{
     float: right;
 
 }
+
+
+
+
+
+
+
+
+
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif; /*ordem de fontes desejadas*/
+    font-size: 16px;
+    background-color: black; /* Cor do fundo*/
+    color: white; /* cor da letra*/
+    padding-top: 100px;
+}
+header {
+    width: 100%;
+    background: #6a7575;
+    padding: 5px;
+    box-sizing: border-box;
+    display: inline-block;
+    position: fixed;
+    top: 0;
+}
+header img {
+    width: 150px; /* largura*/
+    height: 150px; /*altura*/
+    border-radius: 50%; /*deixar a foto arredondada*/
+    border: 5px solid red; /*cor da borda*/
+}
+header nav{
+    float: right;
+    display: inline-block;
+    margin: 20px;
+}
+header nav ul{
+    list-style: none;
+}
+header nav ul li {
+    display: inline-block;
+    margin: 15px;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    transition: all 0.5s;
+}
+header nav ul li a:hover {
+    color: red;
+}
+h2 {
+    text-align: center;
+    font: 24px "IM Fell DW Pica SC";
+    color: #ffa6a6;
+}
+h4 {
+    font: 24px;
+    color: #F00;
+}
+footer {
+    background: #6a7575;
+    padding: 20px 0;
+}
+footer a {
+    background: #FFF;
+    text-decoration: none;
+    margin: 30px;
+    color: red;
+    border-radius: 100px;
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    line-height: 95px;
+    transform: all 0.5s;
+}
+footer {
+    background: #6a7575;
+    color: #FFF;
+}
+footer a:hover {
+    background: red;
+    color: white;
+}

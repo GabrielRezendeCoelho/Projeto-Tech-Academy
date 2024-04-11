@@ -8,13 +8,20 @@ body {
 }
 header {
     width: 100%;
-    background: #6a7575;
+    background: #121212;
     padding: 5px;
     box-sizing: border-box;
     display: inline-block;
     position: fixed;
     top: 0;
 }
+header img {
+    width: 100px; /* largura*/
+    height: 100px; /*altura*/
+    border-radius: 50%; /*deixar a foto arredondada*/
+    border: 5px solid red; /*cor da borda*/
+}
+
 header nav{
     float: right;
     display: inline-block;
@@ -46,6 +53,17 @@ main{
     width: 1000px;
     margin: auto;
 }
+.botao {
+    text-align: center;
+}
+.btn {
+    background: #F00;
+    color: #FFF;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 10px;
+}
 .grid {
     display: grid;
     grid-template-columns: repeat(3, 33%);
@@ -59,15 +77,11 @@ main{
     border-radius: 5px;
     margin: 10px;
 }
-footer {
-    background: #6a7575;
-    padding: 20px 0;
-}
 footer a {
     background: #FFF;
     text-decoration: none;
     margin: 30px;
-    color: red;
+    color: rgb(0, 0, 0);
     border-radius: 100px;
     width: 70px;
     height: 70px;
@@ -76,8 +90,9 @@ footer a {
     transform: all 0.5s;
 }
 footer {
-    background: #6a7575;
+    background: #121212;
     color: #FFF;
+    padding: 20px 0;
 }
 footer a:hover {
     background: red;
