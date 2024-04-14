@@ -1,11 +1,63 @@
 body {
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif; /*ordem de fontes desejadas*/
+    font-family: Arial, Helvetica, sans-serif;
+    /*ordem de fontes desejadas*/
     font-size: 16px;
-    background-color: black; /* Cor do fundo*/
-    color: white; /* cor da letra*/
+    background-color: black;
+    /* Cor do fundo*/
+    color: white;
+    /* cor da letra*/
     padding-top: 100px;
 }
+
+label {
+    font-weight: bold;
+}
+
+.formulario {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid red;
+}
+
+label, .formulario {
+    margin: 10px 0;
+}
+
+.btn-submit, .btn-reset {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+}
+.btn-submit:hover {
+    background: rgb(229, 255, 0);
+    color: green;
+    transition: 1.5s;
+}
+.btn-reset:hover {
+    background: rgb(215, 142, 6);
+    color: red;
+    transition: 1.5s;
+}
+.btn-submit {
+    background: green;
+}
+
+.btn-reset {
+    background: red;
+}
+
+.formulario:focus {
+    background: rgb(81, 223, 231);
+}
+
+.alinhar {
+    text-align: center;
+}
+
 header {
     width: 100%;
     background: #121212;
@@ -15,66 +67,84 @@ header {
     position: fixed;
     top: 0;
 }
+
 header img {
-    width: 100px; /* largura*/
-    height: 100px; /*altura*/
-    border-radius: 50%; /*deixar a foto arredondada*/
-    border: 5px solid red; /*cor da borda*/
+    width: 100px;
+    /* largura*/
+    height: 100px;
+    /*altura*/
+    border-radius: 50%;
+    /*deixar a foto arredondada*/
+    border: 5px solid red;
+    /*cor da borda*/
 }
 
-header nav{
+header nav {
     float: right;
     display: inline-block;
     margin: 20px;
 }
-header nav ul{
+
+header nav ul {
     list-style: none;
 }
+
 header nav ul li {
     display: inline-block;
     margin: 15px;
 }
-header nav ul li a{
+
+header nav ul li a {
     text-decoration: none;
     color: white;
     font-weight: 700;
     transition: all 0.5s;
 }
+
 header nav ul li a:hover {
     color: red;
 }
+
 .banner img {
     width: 100%;
 }
-main h1, footer p{
+
+main h1,
+footer p {
     text-align: center;
 }
-main{
+
+main {
     width: 1000px;
     margin: auto;
 }
+
 .grid {
     display: grid;
     grid-template-columns: repeat(3, 33%);
 }
+
 .grid .coluna img {
     width: 100%;
 }
+
 .grid .coluna {
     text-align: center;
     border: 1x solid #ccc;
     border-radius: 5px;
     margin: 10px;
 }
+
 footer {
     background: #6a7575;
     padding: 20px 0;
 }
+
 footer a {
     background: #FFF;
     text-decoration: none;
     margin: 30px;
-    color: red;
+    color: rgb(0, 0, 0);
     border-radius: 100px;
     width: 70px;
     height: 70px;
@@ -82,11 +152,68 @@ footer a {
     line-height: 95px;
     transform: all 0.5s;
 }
+
 footer {
     background: #121212;
     color: #FFF;
 }
+
 footer a:hover {
     background: red;
     color: white;
+}
+
+.menu {
+    display: none;
+}
+
+.mostrar {
+    display: block;
+}
+
+@media (max-width:420px) {
+    .banner {
+        display: none;
+    }
+
+    header img {
+        display: none;
+    }
+
+    main {
+        width: 100%;
+    }
+
+    .grid {
+        grid-template-columns: 100%;
+    }
+
+    header nav ul {
+        display: block;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    header nav ul li {
+        width: 100%;
+    }
+
+    header nav {
+        display: none;
+    }
+
+    header img {
+        width: 300px;
+    }
+
+    .menu {
+        display: block;
+        border: 1px solid red;
+        padding: 10px 15px;
+        color: white;
+        float: right;
+        margin-top: 15px;
+        border-radius: 5px;
+    }
 }

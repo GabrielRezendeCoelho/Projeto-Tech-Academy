@@ -9,10 +9,15 @@
     <link rel="stylesheet" href="sobre.css">
     <link rel="stylesheet" type="text/css" href="css/all.min.css">
 </head>
+
 <body>
     <header>
+        <br>
         <a href="index.html" title="Home">
             <img src="Imagens/personagemprincipal.jpg" alt="Personagem Principal" title="Personagem principal">
+        </a>
+        <a href="javascript:mostrarmenu()" class="menu">
+            <i class="fas fa-bars"></i>
         </a>
         <nav>
             <ul>
@@ -40,14 +45,14 @@
         </nav>
     </header>
     <main>
-        <h2>Sobre mim</h2>
+        <br><br><br>
         <h2>Sobre mim</h2>
         Estudande do primeiro periodo de Tecnologia de Analise e Desenvolvimento de Sistemas - TADS do grupo
         integrado, 26 anos e desenvolvedor do projeto cuja a missão foi criar<strong> um jogo e também um site</strong>
         envolvendo os conhecimentos adiquirido em aulas.
         <h2>1º Módulo</h2>
         <h4>
-        <li>Desenvolvimento Web</li>
+            <li>Desenvolvimento Web</li>
         </h4>
         Adquirindo conhecimento em HTML e CSS para desenvolver e personalizar estruturas da web (usados
         para esse site).
@@ -61,9 +66,10 @@
         <h4>
             <li>Bjorn e a Jornada da Coragem</li>
         </h4>
-        Em uma terra distante, onde as montanhas se erguiam majestosas e as florestas eram densas e
-        misteriosas, vivia um jovem chamado Bjorn. Ele era filho de um ferreiro local e cresceu
-        aprendendo os segredos da forja e os valores da honestidade e da coragem.
+        Em uma terra distante, onde as florestas eram densas e misteriosas, vivia um jovem chamado Bjorn. Ele era filho
+        de um ferreiro local e cresceu aprendendo os segredos da forja e os valores da honestidade e da coragem. Sua
+        vida, contudo, tomou um rumo inesperado quando seu vilarejo foi tomado por inimigos, desafiando-o a aplicar
+        esses valores em uma luta para salvar sua comunidade.
 
         <h4>
             <li>Encontrar e eliminar os inimigos</li>
@@ -77,8 +83,7 @@
         <h4>
             <li>Bjorn</li>
         </h4>
-        Bjorn é o protagonista cuja trajetória é marcada pela busca de provar seu valor e seguir o
-        caminho dos heróis lendários.
+        Bjorn é o protagonista cuja jornada é marcada por tentar salvar seu vilarejo, que foi tomado por inimigos.
 
         <h4>
             <li>Vargr</li>
@@ -89,26 +94,34 @@
         <h4>
             <li>Grimm - O inimigo final</li>
         </h4>
-        Grimm é movido por um desejo insaciável de poder e dominação, buscando expandir seu domínio
-        sobre as terras circundante, tramando nos bastidores para frustrar os esforços de Bjorn e impedi-lo de alcançar seus
+        Grimm é veloz é movido por um desejo insaciável de poder e dominação, buscando expandir seu domínio
+        sobre as terras circundante, tramando nos bastidores para frustrar os esforços de Bjorn e impedi-lo de alcançar
+        seus
         objetivos.<br><br>
     </main>
-    <br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br>
     <footer>
-        <p>Todos os direitos reservados</p>
+        <p><strong>Copyright © Marca de <i>Gabriel Rezende coelho</i>. Todos os direitos reservados.</strong></p>
         <p>
             <a href="https://github.com/GabrielRezendeCoelho?tab=repositories" target="_blank" rel="noopener noreferrer"
-                title="GitHub">
+                title="GitHub" alt="GitHub">
                 <i class="fa-brands fa-github fa-3x"></i>
             </a>
-            <a href="link desejado 2" target="_blank" rel="noopener noreferrer" title="Instagram">
+            <a href="https://www.instagram.com/gabriel.rcoelho/?igsh=MW02MTd1cTV1bjg5OA%3D%3D" target="_blank"
+                rel="noopener noreferrer" title="Instagram" alt="Instagram">
                 <i class="fa-brands fa-instagram fa-3x"></i>
             </a>
-            <a href="link desejado 3" target="_blank" rel="noopener noreferrer">
-                <i class="fa-solid fa-gamepad fa-3x"></i>
+            <a href="https://wa.me/5544998312630" target="_blank" rel="noopener noreferrer" title="WhatsApp"
+                alt="WhatsApp">
+                <i class="fa-brands fa-whatsapp fa-3x"></i>
             </a>
         </p>
     </footer>
+    <script>
+        function mostrarmenu() {
+            document.querySelector("header nav").classList.toggle("mostrar");
+        }
+    </script>
 </body>
 
 </html>

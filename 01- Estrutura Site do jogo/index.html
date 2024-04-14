@@ -16,6 +16,9 @@
         <a href="index.html" title="Home">
             <img src="Imagens/personagemprincipal.jpg" alt="Personagem Principal" title="Personagem principal">
         </a>
+        <a href="javascript:mostrarmenu()" class="menu">
+            <i class="fas fa-bars"></i>
+        </a>
         <nav>
             <ul>
                 <li><a href="index.html" title="home">
@@ -46,40 +49,45 @@
         <img src="Imagens/Jornada de Coragem.png" alt="Banner" title="Banner">
     </div>
     <main>
-        <h1>Imagens do Jogo</h1>
+        <h1><strong>Imagens do Jogo</strong></h1>
         <div class="grid">
             <div class="coluna">
-                <img src="Imagens/COLOCAR_IMAGEM" alt="Imagem 1" title="Imagem 1">
-                <p>nome da imagem</p>
+                <img src="Imagens/foto1.jpg" alt="Imagem 1" title="Imagem 1">
             </div>
             <div class="coluna">
-                <img src="Imagens/COLOCAR_IMAGEM" alt="Imagem 1" title="Imagem 1">
-                <p>nome da imagem</p>
+                <img src="Imagens/bannersite2.jpg" alt="Imagem 1" title="Imagem 1">
             </div>
             <div class="coluna">
-                <img src="Imagens/COLOCAR_IMAGEM" alt="Imagem 1" title="Imagem 1">
-                <p>nome da imagem</p>
+                <img src="Imagens/foto3.jpg" alt="Imagem 1" title="Imagem 1">
             </div>
         </div>
         <p class="botao">
-            <a href="game.html" target="_blank" title="Jogar" class="btn">Jogar Agora</a>
+            <a href="game.html" target="_blank" title="Jogar" class="btn"><strong>Jogar Agora</strong></a>
             <br><br><br>
         </p>
     </main>
     <footer>
-        <p>Todos os direitos reservados</p>
+        <p><strong>Copyright © Marca de <i>Gabriel Rezende coelho</i>. Todos os direitos reservados.</strong></p>
         <p>
             <a href="https://github.com/GabrielRezendeCoelho?tab=repositories" target="_blank" rel="noopener noreferrer"
-                title="GitHub">
+                title="GitHub" alt="GitHub">
                 <i class="fa-brands fa-github fa-3x"></i>
             </a>
-            <a href="link desejado 2" target="_blank" rel="noopener noreferrer" title="Instagram">
+            <a href="https://www.instagram.com/gabriel.rcoelho/?igsh=MW02MTd1cTV1bjg5OA%3D%3D" target="_blank"
+                rel="noopener noreferrer" title="Instagram" alt="Instagram">
                 <i class="fa-brands fa-instagram fa-3x"></i>
             </a>
-            <a href="link desejado 3" target="_blank" rel="noopener noreferrer">
-                <i class="fa-solid fa-gamepad fa-3x"></i>
+            <a href="https://wa.me/5544998312630" target="_blank" rel="noopener noreferrer" title="WhatsApp"
+                alt="WhatsApp">
+                <i class="fa-brands fa-whatsapp fa-3x"></i>
             </a>
         </p>
     </footer>
+    <script>
+        function mostrarmenu() {
+            document.querySelector("header nav").classList.toggle("mostrar");
+        }
+    </script>
 </body>
+
 </html>
