@@ -4375,8 +4375,7 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Sprite.Cnds.IsOverlapping,
 		C3.Behaviors.Platform.Acts.SetEnabled,
 		C3.Behaviors.solid.Acts.SetEnabled,
-		C3.Behaviors.Flash.Acts.Flash,
-		C3.Plugins.System.Cnds.IsSuspended
+		C3.Behaviors.Flash.Acts.Flash
 	];
 };
 self.C3_JsPropNameTable = [
@@ -4613,8 +4612,7 @@ self.C3_ExpressionFuncs = [
 		() => "ataque1",
 		() => "morte0",
 		() => 0.1,
-		() => 1,
-		() => "andando1"
+		() => 1
 ];
 
 
